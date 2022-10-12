@@ -23,7 +23,7 @@
 }
 .snip1369 > img {
     vertical-align: top;
-    position: relative;
+    /*position: relative;*/
     -webkit-filter: blur(5px);
     filter: blur(5px);
     opacity: 0.6;
@@ -322,4 +322,18 @@ footer a {
 }
 body{
     margin: 0%;
+}
+
+.soldout {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 30px;
+    z-index: 2;
+    opacity: 1 !important;
+    -webkit-filter: blur(0px) !important ;
+    -webkit-transform:rotate(70deg) !important;
+    -moz-transform: rotate(70deg) !important;
+    -ms-transform: rotate(70deg) !important;
+    -o-transform: rotate(70deg) !important;
+    transform: rotate(70deg) !important;
 }
